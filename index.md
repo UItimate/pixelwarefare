@@ -5,8 +5,4 @@
 <p>Alter url to go to different games</p>
 </body>
 </html>
-
-<button id="btn_click">Pixel Warfare</button>
-<script>
-$('#btn_click').on('click', function() { window.location = 'https://uitimate.github.io/pw'; });
-</script>
+<button onclick="window.location='https://uitimate.github.io/pw'">Pixel Warfare</button>
